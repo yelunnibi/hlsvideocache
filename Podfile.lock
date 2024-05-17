@@ -1,0 +1,49 @@
+PODS:
+  - BMPlayer (1.3.2):
+    - BMPlayer/Full (= 1.3.2)
+  - BMPlayer/Core (1.3.2)
+  - BMPlayer/Full (1.3.2):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SnapKit (~> 5.0.0)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PINCache (3.0.4):
+    - PINCache/Arc-exception-safe (= 3.0.4)
+    - PINCache/Core (= 3.0.4)
+  - PINCache/Arc-exception-safe (3.0.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.4):
+    - PINOperation (~> 1.2.3)
+  - PINOperation (1.2.3)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - BMPlayer (~> 1.3.0)
+  - GCDWebServer (~> 3.5)
+  - PINCache (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - BMPlayer
+    - GCDWebServer
+    - NVActivityIndicatorView
+    - PINCache
+    - PINOperation
+    - SnapKit
+
+SPEC CHECKSUMS:
+  BMPlayer: e4b241bd088644d7b89d991a1a65d1b1615d19b3
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PINCache: d9a87a0ff397acffe9e2f0db972ac14680441158
+  PINOperation: fb563bcc9c32c26d6c78aaff967d405aa2ee74a7
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: a1243f9e10316a413324abd081381e9c50af6f82
+
+COCOAPODS: 1.15.2
